@@ -5,6 +5,8 @@
  * Spaces will be included only when more than one word is present.
  */
 public class SpinWords {
+    
+    // I forgot using reverse method of String
     public static String spinWords(String sentence) {
         String[] sentenceArray = sentence.split(" ");
 
